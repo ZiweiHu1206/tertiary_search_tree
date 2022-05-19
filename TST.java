@@ -148,8 +148,7 @@ public class TST<T extends Comparable<T>> implements Iterable<T>{
         return new TSTIterator<T>(this);
     }
 
-    // --------------------PROVIDED METHODS--------------------
-    // The code below is provided to you as a simple way to visualize the tree
+ 
     // This string representation of the tree mimics the 'tree' command in unix
     // with the first child being the left child, the second being the middle child, and the last being the right child.
     // The left child is connect by ~~, the middle child by -- and the right child by __.
